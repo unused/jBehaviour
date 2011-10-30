@@ -1,0 +1,8 @@
+hr { width: 75%; margin: 25px auto; }
+input { width: 125px; height: 18px; border: 1px solid; }
+
+/* Form Example */
+#form-example fieldset { width: 450px; }
+
+/* Accordion Example */
+div#accordion-example { width: 450px; }
