@@ -14,12 +14,15 @@ Usage
     <head>
       ...
       <!-- jquery >= 1.6 -->
-      <script src="js/jquery.behaviour.min.js" type="text/javascript" charset="utf-8"></script>
+      <!-- jquery-ui (optional) -->
+      <!-- jquery.plugin (optional) -->
+      <script src="js/jquery.dataSelector.js" type="text/javascript" charset="utf-8"></script>
+      <script src="js/jquery.behaviour.js" type="text/javascript" charset="utf-8"></script>
       ...
 
 ### Use anywhere in HTML
 
-    <input type="text" data-behaviour="Datepicker" data-datepicker-options="{ showAnim: 'fold' }"
+    <input type="text" data-behaviour="datepicker" data-datepicker-options="{ showAnim: 'fold' }" />
 
 Vendor
 -----
